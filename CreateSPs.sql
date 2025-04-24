@@ -3,7 +3,7 @@
 USE PizzaDB;
 
 DELIMITER //
-\CREATE PROCEDURE sp_InsertOrder(
+CREATE PROCEDURE sp_InsertOrder(
     IN p_customerID INT,
     IN p_orderType VARCHAR(30),
     IN p_orderDateTime DATETIME,
